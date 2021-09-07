@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #192a56;
+}
+header{
+    text-align: center;
+    margin: 2em;
+}
+header h2{
+    color:#f5f6fa;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 0.2em;
+    letter-spacing: 0.2em;
+}
+.container{
+    max-width:500px;
+    width:550px;
+    min-height: 500px;
+    margin: 5em auto;
+    padding:1em;
+}
+.container .form-group{
+   width:100%;
+   background-color: #273c75;
+   padding:1em 0;
+   border-radius: 0.2em;
+}
+.container .form-group .fa-search{
+    color:#0652DD;
+    margin-left:1em;
+    margin-right: 0.7em;
+    font-size: 1.3em;
+}
+.container .form-group .form-control{
+    width:60%;
+    border:0;
+    outline:0;
+    background-color: #273c75;
+    color:#FFF;
+    font-size: 1em;
+}
+.container .form-group .btn-search{
+    padding: 0.5em 1em;
+    margin-left: 2em;
+    border:0;
+    outline:0;
+    background-color:#0652DD;
+    color:#FFF;
+    font-weight: 400;
+    font-size: 0.9em;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+::placeholder{
+    color:#FFF;
+}
+.info{
+    padding: 1em;
+    margin:1em 0;
+    width:94%;
+    background-color: #273c75;
+    border-radius: 0.5em;
+}
+.user-info .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-info .header .image{
+    flex-basis: 50%;
+    text-align: center;
+}
+.user-info .header .image img{
+    width:70%;
+    border-radius: 50%;
+}
+.user-info .header .name{
+    color:#FFF;
+    flex-basis: 50%;
+    padding: 0 0.3em;
+}
+.user-info .bio{
+    margin:0.5em;
+    color:#FFF;
+}
+.user-info .other-info{
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#FFF;
+    font-family: 'Poppins', sans-serif;
+}
+.user-info .other-info h4{
+    font-weight: 500;
+}
+.user-info .other-info p{
+    font-weight: 400;
+}
+.user-info .location{
+    color:#FFF;
+    font-family: 'Poppins', sans-serif;
+}
+.loading{
+    margin: 4em 0;
+    color:#FFF;
+    font-weight:100;
+    font-size: 1.2em;
+    text-align: center;
+}
+.error{
+    margin: 4em 0;
+    color:#FFF;
+    font-weight: 100;
+    font-size: 2em;
+    text-align: center;
+}
